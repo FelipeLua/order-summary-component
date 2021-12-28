@@ -26,8 +26,8 @@ body{
     font-size: 16px;
 }
 
-.card-container{    
-    width: 25em;
+#card-container{    
+    width: 22em;
     height: auto;    
     border-radius: 15px;
     background-color: var(--Very-pale-blue);
@@ -77,6 +77,9 @@ body{
 
 .order-bt{
     margin: 0em 2em;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .bt-payment{
@@ -89,16 +92,17 @@ body{
     color: white; 
     margin: 1.5em 0em;
     font-weight: 700;
-    box-shadow: rgb(156, 146, 146) 0px 5px 20px;     
+    box-shadow: var(--Bright-blue) 0px 5px 15px ;     
 }
 
 .bt-cancel{
     display: block;
-    width: 100%;
+    width: 50%;
     height: 3em;
     border-radius: 8px;
     border-style: none;
     color: var(--Desaturate-blue);
+    background-color: white;
     margin-bottom: 2em;
     font-weight: 700;
 }
