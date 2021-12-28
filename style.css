@@ -27,11 +27,11 @@ body{
 }
 
 #card-container{    
-    width: 22em;
+    width: 28em;
     height: auto;    
     border-radius: 15px;
     background-color: var(--Very-pale-blue);
-    box-shadow: rgb(209, 199, 199) 0px 5px 10px;
+    box-shadow: var(--Pale-blue) 0px 5px 20px;
 }
 
 .main-image{
@@ -40,22 +40,25 @@ body{
     border-radius: 15px 15px 0 0;
 }
 
-.heading{
+.cd-bottom{    
     text-align: center;
-    margin: 1.5em 2.5em;
 }
 
-.text{
-    margin-top: 2em; 
+.titulo{
     color: var(--Dark-blue);
-    font-size: 13px;
+    font-size: 28px;
     font-weight: 900;
+    padding: 0.7em 3.2em 0;
+}
+
+.parag{
+    margin: 0 2.8em;
 }
 
 .price{
     display: flex;
     align-items: center;
-    margin: 2.5em 3em;
+    margin: 2em 4.8em;
 }
 
 .annual{
@@ -66,21 +69,19 @@ body{
 .annual, .tsmall{
     display: block;
     line-height: 1.5em;
-    margin-left: 1.5em;
+    margin-left: 1em;
 }
 
 .change{
     display: inline-block;
     margin-left: auto;
-    font-weight: 500;
+    font-weight: 700;
+    font-size: 14px;
 }
 
 .order-bt{
-    margin: 0em 2em;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
+    margin: 2em 2.8em;    
+    }
 
 .bt-payment{
     display: block;
@@ -90,21 +91,17 @@ body{
     border-radius: 8px;
     border-style: none;
     color: white; 
-    margin: 1.5em 0em;
+    margin: 1.5em 0em 2em;
     font-weight: 700;
-    box-shadow: var(--Bright-blue) 0px 5px 15px ;     
+    box-shadow: hsla(245, 75%, 52%, 0.3) 0px 10px 20px;
+    font-size: 13px;   
 }
 
 .bt-cancel{
-    display: block;
-    width: 50%;
-    height: 3em;
-    border-radius: 8px;
-    border-style: none;
     color: var(--Desaturate-blue);
-    background-color: white;
-    margin-bottom: 2em;
+    text-decoration: none;
     font-weight: 700;
+    font-size: 13px; 
 }
 
 .change:hover{
