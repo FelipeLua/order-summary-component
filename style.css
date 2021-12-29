@@ -32,6 +32,8 @@ body{
     border-radius: 15px;
     background-color: var(--Very-pale-blue);
     box-shadow: var(--Pale-blue) 0px 5px 20px;
+    
+    padding-bottom: 1em;
 }
 
 .main-image{
@@ -80,7 +82,7 @@ body{
 }
 
 .order-bt{
-    margin: 2em 2.8em;    
+    margin: 2em 2.8em;
     }
 
 .bt-payment{
@@ -101,7 +103,7 @@ body{
     color: var(--Desaturate-blue);
     text-decoration: none;
     font-weight: 700;
-    font-size: 13px; 
+    font-size: 13px;
 }
 
 .change:hover{
